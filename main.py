@@ -20,6 +20,4 @@ for puerto in range(puerto_inicio, puerto_final +1):
     # puerto cerrado. Y se guarda en la variable resultado.
     if resultado == 0:
         print(f"Puerto {puerto} -> ABIERTO")
-    else:
-        print(f"Puerto {puerto} -> CERRADO")
     s.close() # Se cierra el socket para liberar recursos.
